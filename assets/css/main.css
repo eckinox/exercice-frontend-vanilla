@@ -7,10 +7,11 @@
 #logo { margin-top: 1rem; }
 
 /* Listings */
-.listing { display: grid; grid-template-columns: repeat(var(--column-count), 1fr); gap: 1rem; --column-count: 3; padding: 0; list-style: none; }
+.listing { display: grid; grid-template-columns: repeat(auto-fit, minmax(var(--min-column-size), 1fr)); gap: 1rem; padding: 0; margin: 1rem 0; list-style: none; --min-column-size: 9rem; }
+.listing > * { margin: 0; }
 .listing h3 { margin: 1rem 0; font-size: 1.5rem; }
 /* Listings: articles */
-.listing.news { --column-count: 2; }
+.listing.news { --min-column-size: 24ch; }
 .listing article { outline: 0px solid; position: relative; transition: outline .1s ease-in-out; }
 .listing article:hover, 
 .listing article:focus-within { outline: 4px solid #0d47a1; }
