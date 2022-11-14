@@ -4,8 +4,8 @@ Cette codebase contient un petit site web pour une compagnie fictive nommée
 Cybersécurité Québec. 
 
 Le site est développé en HTML, CSS, Javascript et PHP, sans aucun framework ou
-librairies externes. [SimpleCSS](https://simplecss.org/) est utilisé afin de 
-donner des styles de base.
+librairies externes (à l'exception de [SimpleCSS](https://simplecss.org/), qui 
+est utilisé pour les styles de base).
 
 Dans le cadre de l'exercice technique, nous vous demanderons de 
 compléter quelques tâches d'ajustement et d'améliorations sur ce site web.
